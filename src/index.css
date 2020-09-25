@@ -1,3 +1,24 @@
 body {
   background-color: #2e4045;
 }
+
+.CodeMirror {
+  height: 700px !important;
+}
+
+.files-from-server {
+  background-color: #1c272a;
+  color: #546E7A;
+  border-bottom: 1px solid #546E7A;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.files-from-server:hover {
+  background-color: #546E7A;
+  color: #1c272a;
+  border-bottom: 1px solid #1c272a;
+}
